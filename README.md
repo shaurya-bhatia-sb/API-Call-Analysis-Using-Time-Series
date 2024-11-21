@@ -67,17 +67,6 @@ The project includes the following files:
 ## Contributing
 If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request.
 
-## License
-
-### Explanation:
-- **Project Description**: A brief overview of the project’s goal and features.
-- **Project Structure**: Lists the main files and folders in the repository, including your uploaded HTML and CSS files.
-- **Installation**: Instructions for cloning the repository and setting it up locally.
-- **Usage**: Simple usage guide for running the HTML page.
-- **Contributing**: How others can contribute to the project.
-- **License**: Mentions the open-source license, if applicable.
-
-Feel free to adjust the content based on your actual project files and their functionality.
 
 
 
