@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top APIs</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Top APIs</h1>
+        <form action="/select_api" method="POST">
+            <label for="api_code">Select an API:</label>
+            <select id="api_code" name="api_code" required>
+                {% for api in top_apis %}
+                <option value="{{ api }}">{{ api }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Proceed</button>
+        </form>
+    </div>
+</body>
+</html>

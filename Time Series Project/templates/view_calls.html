@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View API Calls</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>API Call Timestamps - {{ api_code }}</h1>
+        <ul>
+            {% for call in api_calls %}
+            <li>{{ call }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

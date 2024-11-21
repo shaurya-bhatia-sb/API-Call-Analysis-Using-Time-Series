@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Analysis - Home</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <body>
+    <div class="main_cont">
+      <div class="container">
+        <h1>API Call Analysis</h1>
+        <form action="/set_top_n" method="POST">
+          <label for="top_n">Enter the number of top APIs to analyze:</label>
+          <input type="number" id="top_n" name="top_n" min="1" required />
+          <!-- <button type="submit">Submit</button> -->
+          <button class="button" type="submit">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+              ></path>
+            </svg>
+            <div class="text">Submit</div>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

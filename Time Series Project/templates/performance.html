@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Performance Metrics - {{ api_code }}</h1>
+        <p><strong>Best Model:</strong> {{ best_model }}</p>
+        <form action="/show_performance" method="POST">
+            <input type="hidden" name="api_code" value="{{ api_code }}">
+            <label for="model">Select Model:</label>
+            <select name="model" id="model">
+                {% for model in available_models %}
+                <option value="{{ model }}" {% if selected_model == model %}selected{% endif %}>{{ model }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Update Forecast</button>
+        </form>
+
+        <h2>Model Performance:</h2>
+        <ul>
+            {% for model, mse in performance.items() %}
+            <li>{{ model }}: {{ mse }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Forecasted Dates:</h2>
+        <ul>
+            {% for date in forecast_dates %}
+            <li>{{ date }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

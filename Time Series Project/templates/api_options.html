@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Options</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>API Options - {{ api_code }}</h1>
+        <form action="/view_api_calls" method="POST">
+            <input type="hidden" name="api_code" value="{{ api_code }}">
+            <button type="submit">View API Calls</button>
+        </form>
+        <form action="/download_api_calls" method="POST">
+            <input type="hidden" name="api_code" value="{{ api_code }}">
+            <button type="submit">Download API Calls</button>
+        </form>
+        <form action="/show_performance" method="POST">
+            <input type="hidden" name="api_code" value="{{ api_code }}">
+            <button type="submit">Show Performance</button>
+        </form>
+    </div>
+</body>
+</html>

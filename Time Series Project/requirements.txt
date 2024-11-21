@@ -1,0 +1,9 @@
+pandas==2.1.1          # For data manipulation and analysis
+numpy==1.26.0          # For numerical computations
+matplotlib==3.8.0      # For visualizing data
+seaborn==0.12.2        # For statistical data visualization
+requests==2.31.0       # For making HTTP requests to APIs
+flask==3.1.2           # If you're using Flask for the web interface
+plotly==5.16.0         # For interactive visualizations
+scikit-learn==1.4.2    # For any machine learning or pattern detection
+statsmodels==0.14.0    # For time series analysis
