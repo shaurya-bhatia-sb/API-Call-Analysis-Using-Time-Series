@@ -21,6 +21,22 @@ The project includes the following files:
 ## Web Preview
 
 
+### Homepage
+![Homepage](Time%20Series%20Project/screenshots/Homepage.png)
+
+### Form Submission
+![Form Submission](Time%20Series%20Project/screenshots/Form%20Submission.png)
+
+### API Options
+![API Options](Time%20Series%20Project/screenshots/API%20Options.png)
+
+### API Calls
+![API Calls](Time%20Series%20Project/screenshots/API%20Calls.png)
+
+### Analysis Results
+![Analysis Results](Time%20Series%20Project/screenshots/Analysis%20Results.png)
+
+
 ## Installation
 
 1. Clone the repository to your local machine:
