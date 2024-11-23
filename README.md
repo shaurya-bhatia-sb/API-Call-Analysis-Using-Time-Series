@@ -68,6 +68,10 @@ The project includes the following files:
 If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request.
 
 
+---
+  
+Made with ❤️ by Shaurya Bhatia
+
 
 
 
